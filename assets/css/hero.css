@@ -63,24 +63,30 @@
     outline-offset: -4px;
 }
 
-@media (max-width: 1041px) {
-    #button1 {
-        top: 80%;
-        left: 80%;
-    }
-}
 
 @media (max-width: 1301px) {
     #button1 {
-        top: 80%;
+        top: 73%;
         left: 74%;
     }
 }
-
-@media (max-width: 400px) {
+@media (max-width: 1041px) {
     #button1 {
-        top: 65%;
-        left: 85%;
+        top: 80%;
+        left: 75%;
+        padding: 0;
+    }
+    @media (max-width: 705px) {
+        #button1 {
+            top: 85%;
+            left: 55%;
+        }
+    }
+}
+@media (max-width: 475px) {
+    #button1 {
+        top: 85%;
+        left: 25%;
     }
 }
 
@@ -118,22 +124,29 @@
 
 @media (max-width: 1301px) {
     #button2 {
-        top: 73%;
+        top: 60%;
         left: 74%;
     }
 }
 
 @media (max-width: 1041px) {
     #button2 {
-        top: 73%;
-        left: 80%;
+        top: 70%;
+        left: 75%;
+        padding: 0;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 705px) {
     #button2 {
-        top: 58%;
-        left: 85%;
+        top: 85%;
+        left: 15%;
+    }
+}
+@media (max-width: 475px) {
+    #button2 {
+        top: 75%;
+        left: 25%;
     }
 }
 
