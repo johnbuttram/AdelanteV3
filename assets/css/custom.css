@@ -462,7 +462,13 @@ a.active.navMember {
   color: white;
   font-size: 2vmin;
 }
-
+.staffBio>a>p {
+  color: white;
+  font-size: 2vmin;
+}
+.staffBio>a>p:hover {
+ text-decoration: underline;
+}
 @media (max-width: 1556px) {
   .staffBio {
     height: auto;
@@ -482,6 +488,7 @@ a.active.navMember {
 
   }
 }
+
 
 .staffName {
   font-family: 'Alegreya Sans', sans-serif;
