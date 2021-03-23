@@ -582,6 +582,10 @@ a.active.navMember {
   height: 100%;
 }
 
+.link-with-preview>p {
+  color: black !important;
+}
+
 /*/Media & Press*/
 
 /*Resources*/
