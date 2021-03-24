@@ -70,12 +70,14 @@
         left: 74%;
     }
 }
+
 @media (max-width: 1041px) {
     #button1 {
         top: 80%;
         left: 75%;
         padding: 0;
     }
+
     @media (max-width: 705px) {
         #button1 {
             top: 85%;
@@ -83,6 +85,7 @@
         }
     }
 }
+
 @media (max-width: 475px) {
     #button1 {
         top: 85%;
@@ -143,6 +146,7 @@
         left: 15%;
     }
 }
+
 @media (max-width: 475px) {
     #button2 {
         top: 75%;

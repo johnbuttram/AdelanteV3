@@ -213,12 +213,14 @@ a.active.nav-link {
 .navbar-collapse {
   background-color: #1F2022;
 }
+
 @media (max-width: 1199px) {
   .navbar-collapse {
     margin-right: 75vw;
     padding-left: 3vw;
   }
 }
+
 @media (max-width: 1199px) {
   .mobileDrop {
     margin-top: 7vh;
@@ -270,11 +272,13 @@ a.active.navMember {
   cursor: pointer;
   border-radius: 5px;
 }
+
 .homeLanguageButton:hover {
   background-color: #1F2022;
   color: #DEF7FF;
   text-decoration: underline;
 }
+
 @media (max-width: 1199px) {
   .homeLanguageButton {
     background-color: #DEF7FF;
@@ -292,10 +296,12 @@ a.active.navMember {
   cursor: pointer;
   border-radius: 5px;
 }
+
 .languageButton:hover {
   background-color: #DEF7FF;
   text-decoration: underline;
 }
+
 @media (max-width: 1199px) {
   .languageButton {
     background-color: #DEF7FF;
@@ -304,10 +310,11 @@ a.active.navMember {
     margin-bottom: 1vh;
   }
 }
+
 #languageSwitch {
-    position: absolute;
-    top: 12vh;
-    left: 84.5vw;
+  position: absolute;
+  top: 12vh;
+  left: 84.5vw;
 }
 
 @media (max-width: 1199px) {
@@ -315,8 +322,9 @@ a.active.navMember {
     position: relative;
     top: auto;
     left: auto;
-    margin-top: 1vh; 
+    margin-top: 1vh;
   }
+
   #languageSwitch>button {
     border-color: white !important;
   }
@@ -338,7 +346,7 @@ a.active.navMember {
 .footer .footer-center,
 .footer .footer-right {
   display: block;
-  }
+}
 
 
 /* footer left*/
@@ -445,6 +453,7 @@ a.active.navMember {
     margin-bottom: 0vh;
   }
 }
+
 .aboutImg {
   width: 60vw;
   height: 65vh;
@@ -522,13 +531,16 @@ a.active.navMember {
   color: white;
   font-size: 2vmin;
 }
+
 .staffBio>a>p {
   color: white;
   font-size: 2vmin;
 }
+
 .staffBio>a>p:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
+
 @media (max-width: 1556px) {
   .staffBio {
     height: auto;
@@ -653,6 +665,7 @@ a.active.navMember {
   margin-top: 5vh;
 
 }
+
 .publicationCovers {
   height: 40vh;
   width: 15vw;
