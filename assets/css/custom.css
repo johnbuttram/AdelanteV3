@@ -262,6 +262,66 @@ a.active.navMember {
   }
 }
 
+.homeLanguageButton {
+  border: 2px solid #1F2022;
+  background-color: #1F2022;
+  color: #DEF7FF;
+  font-size: 2.5vmin;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.homeLanguageButton:hover {
+  background-color: #1F2022;
+  color: #DEF7FF;
+  text-decoration: underline;
+}
+@media (max-width: 1199px) {
+  .homeLanguageButton {
+    background-color: #DEF7FF;
+    border: #DEF7FF;
+    color: #1F2022;
+    margin-bottom: 1vh;
+  }
+}
+
+.languageButton {
+  border: 2px solid #1F2022;
+  background-color: transparent;
+  color: #1F2022;
+  font-size: 2.5vmin;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.languageButton:hover {
+  background-color: #DEF7FF;
+  text-decoration: underline;
+}
+@media (max-width: 1199px) {
+  .languageButton {
+    background-color: #DEF7FF;
+    border: #DEF7FF;
+    color: #1F2022;
+    margin-bottom: 1vh;
+  }
+}
+#languageSwitch {
+    position: absolute;
+    top: 12vh;
+    left: 84.5vw;
+}
+
+@media (max-width: 1199px) {
+  #languageSwitch {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: 1vh; 
+  }
+  #languageSwitch>button {
+    border-color: white !important;
+  }
+}
+
 /*Footer*/
 .footer {
   background-color: #FF8D1A;
