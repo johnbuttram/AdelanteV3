@@ -396,8 +396,7 @@ a.active.navMember {
 }
 
 .icons {
-  color: #04D7F8 !important;
-  font-size: 5vmin;
+  width: 3vw;
 }
 
 .icons:hover {
@@ -419,7 +418,7 @@ a.active.navMember {
 
 @media (max-width: 767px) {
   .icons {
-    font-size: 5vmin;
+    width: 10vw;
   }
 
   .iconFloat {
@@ -428,6 +427,7 @@ a.active.navMember {
     flex-direction: column;
     float: right;
     line-height: 6vh;
+    margin-top: 6vh;
   }
 }
 
