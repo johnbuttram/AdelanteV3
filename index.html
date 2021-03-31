@@ -29,10 +29,12 @@
     <!-- Bootstrap core JavaScript -->
     <script src="node_modules/aos/dist/aos.js"></script>
     <script>
-        AOS.init({
-            disable: 'mobile',
-            disable: 'tablet'
-        });
+AOS.init({
+  disable: function() {
+    var maxWidth = 700;
+    return window.innerWidth < maxWidth;
+  }
+});
     </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

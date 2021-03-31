@@ -302,9 +302,11 @@
     <script src="../../../node_modules/aos/dist/aos.js"></script>
     <script>
         AOS.init({
-            disable: 'mobile',
-            disable: 'tablet'
-        });
+  disable: function() {
+    var maxWidth = 700;
+    return window.innerWidth < maxWidth;
+  }
+});
     </script>
     <script src="../../js/jquery.min.js"></script>
     <script src="../../bootstrap/js/bootstrap.min.js"></script>
