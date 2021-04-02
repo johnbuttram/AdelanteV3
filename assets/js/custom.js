@@ -15,3 +15,8 @@ $(function () {
     $('.navbar-collapse').collapse('hide');
   });
 });
+//This initializes the lightbox in the art gallery
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+event.preventDefault();
+$(this).ekkoLightbox();
+});
