@@ -456,7 +456,7 @@ a.active.navMember {
 
 .aboutImg {
   width: 60vw;
-  height: 65vh;
+  height: 65vh; 
 }
 
 @media (max-width: 1175px) {
