@@ -627,11 +627,15 @@ a.active.navMember {
 
 .sidebar {
   margin-top: 110px;
-  margin-bottom: 0;
+  margin-bottom: 33vh;
   left: 10px;
   background: rgba(255, 255, 255, 0.25);
 }
-
+@media (max-width: 700px) {
+  .sidebar {
+    margin-bottom: 0;
+  }
+}
 .modalBg {
   background-color: #DEF7FF;
 }
