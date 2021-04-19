@@ -199,6 +199,7 @@ a.active.nav-link {
   }
 }
 
+
 @media (max-width: 766px) {
   .navbar {
     max-width: 100vw;
@@ -218,6 +219,7 @@ a.active.nav-link {
   .navbar-collapse {
     margin-right: 75vw;
     padding-left: 3vw;
+    padding-right: 3vw;
   }
 }
 
@@ -285,9 +287,19 @@ a.active.navMember {
     border: #DEF7FF;
     color: #1F2022;
     margin-bottom: 1vh;
+    font-size: 3vmin;
   }
 }
-
+@media (max-width: 760px) {
+  .homeLanguageButton {
+    font-size: 6vmin;
+  }
+}
+@media (max-width: 350px) {
+  .homeLanguageButton {
+    font-size: 7.5vmin;
+  }
+}
 .languageButton {
   border: 2px solid #1F2022;
   background-color: transparent;
@@ -308,9 +320,19 @@ a.active.navMember {
     border: #DEF7FF;
     color: #1F2022;
     margin-bottom: 1vh;
+    font-size: 3vmin;
   }
 }
-
+@media (max-width: 760px) {
+  .languageButton {
+    font-size: 6vmin;
+  }
+}
+@media (max-width: 350px) {
+  .languageButton {
+    font-size: 7.5vmin;
+  }
+}
 #languageSwitch {
   position: absolute;
   top: 12vh;
@@ -447,10 +469,11 @@ a.active.navMember {
   #aboutImageGradient {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 25vh;
+    height: 35vh;
     width: 100vw;
     margin-top: 5vh;
     margin-bottom: 0vh;
+    padding-bottom: 0;
   }
 }
 
@@ -468,7 +491,14 @@ a.active.navMember {
 
 @media (max-width: 769px) {
   .aboutImg {
+    width: 60vw;
+    height: 50vh;
+  }
+}
+@media (max-width: 500px) {
+  .aboutImg {
     width: 100vw;
+    height: auto;
   }
 }
 
