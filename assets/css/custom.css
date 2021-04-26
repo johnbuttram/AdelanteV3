@@ -395,6 +395,12 @@ a.active.navMember {
 
 }
 
+@media (max-width: 600px) {
+  .stayInTouch {
+    margin-left: 11vw;
+  }
+}
+
 /*/Footer*/
 
 /*/All pages*/
@@ -529,13 +535,13 @@ a.active.navMember {
   }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1281px) {
   .aboutContact>p {
-    font-size: 3vmin;
+    font-size: 2.5vmin;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .aboutContact {
     display: inline-block;
     left: 0;
@@ -543,7 +549,7 @@ a.active.navMember {
   }
 
   .aboutContact>p {
-    font-size: 4vmin;
+    font-size: 3.25vmin;
   }
 }
 
