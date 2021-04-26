@@ -655,10 +655,13 @@ a.active.navMember {
 
 /*/Our work*/
 
-/*Get involved*/
-
-/*/Get involved*/
-
+/*Art Gallery*/
+@media (max-width: 600px) {
+.galleryMarginBottom {
+margin-bottom: 5vh;
+}
+}
+/*/Art Gallery/*
 /*Media & Press*/
 
 .sidebar {
