@@ -724,8 +724,7 @@ width: 20vw;
 }
 .sidebar>a:hover {
   color: #04D7F8;
-  text-decoration: underline;
-}
+  }
 .modalBg {
   background-color: #DEF7FF;
 }
