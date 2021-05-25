@@ -362,7 +362,7 @@ a.active.navMember {
 
 /*Footer*/
 .footer {
-  background-color: #FF8D1A;
+  background-color: #1F2022;
   width: auto;
   height: 26vh;
   text-align: center;
@@ -372,6 +372,15 @@ a.active.navMember {
   line-height: normal;
   position: relative;
   z-index: 2;
+}
+.footer p {
+  color: white;
+}
+.footer a{
+  color: white;
+}
+.footer label {
+  color: white;
 }
 
 .footer .footer-left,
@@ -411,6 +420,9 @@ a.active.navMember {
   }
 }
 
+.stayInTouch  h4 {
+  color: white;
+}
 /*/Footer*/
 
 /*/All pages*/
@@ -704,6 +716,13 @@ width: 20vw;
     position: relative;
     width: auto;
   }
+}
+.sidebar>a{
+  color: white;
+}
+.sidebar>a:hover {
+  color: #04D7F8;
+  text-decoration: underline;
 }
 .modalBg {
   background-color: #DEF7FF;
