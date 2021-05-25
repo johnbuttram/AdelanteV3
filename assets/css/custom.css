@@ -1,7 +1,4 @@
 /* All Pages */
-body{
-  z-index: 1;
-}
 h1,
 h2,
 h3,
@@ -18,7 +15,6 @@ html {
 a {
   color: #642516;
   text-decoration: none;
-  z-index: 1;
 }
 
 a:hover {
@@ -55,14 +51,7 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
 }
-h4 {
-  font-size: .90rem;
-  color: black !important;
-}
-.modalFooter {
-  font-size: .90rem;
-  color: black !important;
-}
+
 .h3-resources {
   font-size: 7vmin;
   text-align: center;
@@ -75,9 +64,11 @@ h4 {
 
 #navlogo {
   position: absolute;
-  top: 0%;
-  max-width: 150px;
-  max-height: 11vh;
+  left: 15%;
+  top: 10%;
+  float: left;
+  width: 8vw;
+  height: 8vh;
   background-color: #DEF7FF;
 }
 
@@ -85,6 +76,8 @@ h4 {
   position: absolute;
   top: 0%;
   left: 0%;
+  width: 13vw;
+  height: 11vh;
   background-color: #DEF7FF;
 }
 
@@ -369,8 +362,6 @@ a.active.navMember {
   font-size: 16px;
   margin: 0 !important;
   line-height: normal;
-  position: relative;
-  z-index: 2;
 }
 
 .footer .footer-left,
@@ -665,11 +656,7 @@ a.active.navMember {
 /*/Our work*/
 
 /*Art Gallery*/
-.gallerySize {
-  max-height: 300px;
-  max-width: 300px;
-}
-@media (max-width: 769px) {
+@media (max-width: 600px) {
 .galleryMarginBottom {
 margin-bottom: 5vh;
 }
@@ -678,33 +665,14 @@ margin-bottom: 5vh;
 /*Media & Press*/
 
 .sidebar {
-  left: 0;
-  background: #1F2022;
-  padding-top: 15vh;
-  padding-bottom: 1000vh;  
-  z-index: 1;
-  overflow: hidden;
-  position: fixed;
-  font-size: 1.25rem;
-  width: 20vw;
-  }
-  .sidebar a {
-    color: white; 
-  }
-@media (max-width: 900px) {
-  .sidebar {
-    margin-bottom: 0;
-    padding-bottom: 100vh;
-    position: relative;
-    width: auto;
-  }
+  margin-top: 110px;
+  margin-bottom: 33vh;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.25);
 }
-@media (max-width: 577px) {
+@media (max-width: 700px) {
   .sidebar {
     margin-bottom: 0;
-    padding-bottom: 1vh;
-    position: relative;
-    width: auto;
   }
 }
 .modalBg {
