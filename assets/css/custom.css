@@ -382,7 +382,9 @@ a.active.navMember {
 .footer label {
   color: white;
 }
-
+.footer h4 {
+  color: white !important;
+}
 .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
@@ -421,7 +423,7 @@ a.active.navMember {
 }
 
 .stayInTouch  h4 {
-  color: white;
+  color: white !important;
 }
 /*/Footer*/
 
