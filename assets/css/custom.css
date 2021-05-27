@@ -704,7 +704,7 @@ position: fixed;
 font-size: 1.25rem;
 width: 20vw;
 }
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .sidebar {
     margin-bottom: 0;
     padding-bottom: 1vh;
@@ -726,9 +726,9 @@ width: 20vw;
 .sidebarContent {
   margin-left: 25%;
 }
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .sidebarContent {
-    margin-left:0;
+    margin-left:10%;
   }
 }
 
