@@ -640,33 +640,10 @@ a.active.navMember {
 /*/Staff*/
 
 /*Our work*/
-/*Accordian*/
-.collapsible-link {
-  width: 100%;
-  position: relative;
-  text-align: left;
-  color: black;
+.ulColor {
+  color: #642516;
+
 }
-
-.collapsible-link::before {
-  content: '\f107';
-  position: absolute;
-  top: 50%;
-  right: 0.8rem;
-  transform: translateY(-50%);
-  display: block;
-  font-family: 'FontAwesome';
-  font-size: 1.1rem;
-  color: black;
-}
-
-
-.collapsible-link[aria-expanded='true']::before {
-  content: '\f106';
-}
-
-/*/Accordian*/
-
 .verticalAlign {
   display: flex;
   justify-content: center;
