@@ -17,9 +17,9 @@
   <!--/Stylesheets-->
 </head>
 
-<body>
-   <!--Navbar-->
-   <nav data-aos="fade-right" data-aos-once="true" class="navbar d-flex navHeight flex-row navbar-expand-xl fixed-top">
+<body data-spy="scroll" data-target=".sidebar">
+  <!--Navbar-->
+  <nav data-aos="fade-right" data-aos-once="true" class="navbar d-flex navHeight flex-row navbar-expand-xl fixed-top">
     <!--Brand-->
     <div class="wideLogo">
       <a class="navbar-brand" href="">
@@ -111,17 +111,47 @@
   </nav>
   <!--/Navbar-->
   <section>
-    <div class="container-fluid" style="margin-top: 100px;">
+    <div style="margin-top: 5vh;">
       <!--Any Edits Go here-->
-      <div class="container">
-        <div class="row">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="nav navbar flex-column nav-pills sidebar" aria-orientation="vertical">
+            <a class="nav-link active a-links" href="#orgHistory">
+              Organization History
+            </a>
+            <a class="nav-link a-links" href="#staff">Staff</a>
+            <a class="nav-link a-links" href="#board">
+              Board of Directors
+            </a>
+            <a class="nav-link a-links" href="#annualReports">
+              Annual Reports
+            </a>
+          </div>
+        </div>
+        <div class="row sidebarContent" style="margin-top: 7vh;">
           <div class="col-sm-12">
-            <h1 class="latoBold my-5">Staff</h1>
+            <h1 class="latoBold my-5">Organization History</h1>
+            <div class="col-sm-5">
+              <img class="img-fluid float-left" src="../../img/photos/poetry-night.jpeg">
+            </div>
+            <div class="col-sm-7 float-right">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt obcaecati eligendi. Temporibus
+                officiis tempore nemo accusantium facilis. Voluptatum fugiat, magni quisquam quam numquam laboriosam cum
+                sit praesentium corrupti ullam?</p><br>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum omnis quam minus veniam consequuntur,
+                soluta fuga veritatis nulla dolorem hic animi fugiat dolore sit voluptatum facilis quibusdam mollitia
+                consectetur! Odio!
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="centerMobile">
+      <hr id="staff" style="margin-top: 7vh">
+      <div class="row sidebarContent">
+        <div class="col-sm-12">
+          <h1 class="latoBold my-5">Staff</h1>
+        </div>
+        <div class="container">
           <div class="row" style="margin-bottom: 5vh;">
             <div class="col-lg-3"><img loading="lazy" src="../../img/staff/Isaac-headshot.jpeg"
                 class="staffImg img-fluid" alt="Portrait of Isaac">
@@ -201,33 +231,86 @@
                   <p>Email Fábio</p>
                 </a>
               </div>
+
             </div>
           </div>
         </div>
+      </div>
   </section>
-  <hr>
-  </section>
+  <hr id="board">
   <section>
-    <div class="container">
-      <div class="col-sm-12 d-flex flex-column text-justify">
-        <h2 class="latoBold h3-resources">Board of Directors&nbsp;2020-2021</h2>
-        <div class="col-sm-12">
-          <p>
-            <strong>Marisol Aguilar*</strong> - Domestic worker and immigrants’ rights activist; founding Adelante
-            member<br>
-            <strong>Marcos Baltazar*</strong> - Worker and immigrants’ rights activist; day laborer and former
-            Adelante wage theft case<br>
-            <strong>Julia Calderón*</strong>, President - Worker and immigrants’ rights activist; Women’s Group
-            participant and leader<br>
-            <strong>Francisca Godínez*</strong> - Domestic worker and labor rights activist; former Adelante wage
-            theft case<br>
-            <strong>Jean Hernández</strong>, Secretary - Latinx Outreach Coordinator, AIDS Alabama; health and
-            human rights activist and volunteer <br>
-            <strong>Prof. John Maddox</strong>, Vice President - Professor of Latin American Literature at the
-            University of Alabama at Birmingham; Adelante volunteer and affiliate<br>
-            <strong>Jesica Tellez*</strong>, Treasurer - participant and leader of Adelante’s Raíces Youth
-            Organizing Committee</p><br>
-          <em>*Adelante member</em></p>
+    <div class="row sidebarContent">
+      <div >
+        <div class="col-sm-12 d-flex flex-column text-justify">
+          <h2 class="latoBold h3-resources">Board of Directors&nbsp;2020-2021</h2>
+          <div class="row">
+            <div class="col-sm-5">
+              <img class="img-fluid" src="../../img/photos/selma-bridge-crossing.jpeg">
+            </div>
+            <div class="col-sm-7">
+              <p>
+                <strong>Marisol Aguilar*</strong> - Domestic worker and immigrants’ rights activist; founding Adelante
+                member<br>
+                <strong>Marcos Baltazar*</strong> - Worker and immigrants’ rights activist; day laborer and former
+                Adelante wage theft case<br>
+                <strong>Julia Calderón*</strong>, President - Worker and immigrants’ rights activist; Women’s Group
+                participant and leader<br>
+                <strong>Francisca Godínez*</strong> - Domestic worker and labor rights activist; former Adelante wage
+                theft case<br>
+                <strong>Jean Hernández</strong>, Secretary - Latinx Outreach Coordinator, AIDS Alabama; health and
+                human rights activist and volunteer <br>
+                <strong>Prof. John Maddox</strong>, Vice President - Professor of Latin American Literature at the
+                University of Alabama at Birmingham; Adelante volunteer and affiliate<br>
+                <strong>Jesica Tellez*</strong>, Treasurer - participant and leader of Adelante’s Raíces Youth
+                Organizing Committee</p><br>
+              <em>*Adelante member</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <hr id="annualReports">
+    <div class="row sidebarContent">
+      <div class="col-sm-12">
+        <h3 class="latoBold h3-resources">Annual Reports</h3>
+        <br>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="../../annualReports/english/2017AdelanteRecapEng.pdf"><img loading="lazy"
+              class="img-fluid publicationCovers" src="../../annualReports/english/coverPagesEng/2017ARCover.jpg">
+          </a>
+          <p class="publicationCenter" style="padding-bottom: 7vh;">
+            2017 Recap<br>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <a href="../../annualReports/english/2018AdelanteRecapEng.pdf">
+            <img src="../../annualReports/english/coverPagesEng/2018ARCover.jpg"
+              class="img-fluid publicationCovers"></a>
+          <p class="publicationCenter" style="padding-bottom: 7vh;">2018 Recap
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <a href="../../annualReports/english/2019RecapFinalEng.pdf">
+            <img src="../../annualReports/english/coverPagesEng/2019ARCover.jpg" loading="lazy"
+              class="img-fluid publicationCovers">
+          </a>
+          <p class="publicationCenter" style="padding-bottom: 7vh;">
+            2019 Recap</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 sidebarContent">
+          <a href="../../annualReports/english/2020AnnualReportEng.pdf">
+            <img src="../../annualReports/english/coverPagesEng/2020ARCover.png" loading="lazy"
+              class="img-fluid publicationCovers">
+          </a>
+          <p class="publicationCenter" style="padding-bottom: 10vh;">
+            2019 Recap</p>
         </div>
       </div>
     </div>
